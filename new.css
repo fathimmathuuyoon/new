@@ -1,0 +1,27 @@
+.qwerty{
+    background-color: rebeccapurple;
+}
+
+.qwerty1, .qwerty2, .qwerty3{
+    background-color: blanchedalmond;
+}
+body{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.qwerty1:hover{
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+    /* transition: 200ms; */
+}
+.button:active{
+    /* padding: 10px;
+    transition: 1s; */
+    background-color: blue;
+}
+
+#bnm{
+    color: aqua;
+}
