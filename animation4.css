@@ -1,0 +1,35 @@
+.load{
+    width: 1050px;
+    height: 600px;
+    background-color: rgb(240, 245, 246);
+    position: absolute;
+    left: 330px;
+}
+.box{
+    width: 700px;
+    height: 10px;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    border: 1px none;
+    border-radius: 30px;
+    background-color: rgb(230, 227, 227);
+}
+
+.loading{
+    width: 700px;
+    height: 10px;
+    position: absolute;
+    left: 500px;
+    top: 300px; 
+    background-color: lawngreen;  
+    border-radius: 30px;
+    animation: loading  5s infinite;
+
+}
+
+@keyframes loading {
+    from{
+        
+    }
+}

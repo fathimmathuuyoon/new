@@ -1,0 +1,120 @@
+body {
+    background-color:  rgb(28, 22, 66);
+    color: white;
+}
+
+.hostinger{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.arrow {
+  font-size: 11px;
+  margin-left: 2px;
+}
+
+button{
+    background-color: rgb(28, 22, 66);
+    color: white;
+    border: solid white 1px;
+    padding: 10px 10px;
+    border-radius: 5px;
+
+}
+img{
+    border: solid 1px;
+    width: 20px; 
+    height: 15px;
+    border-radius: 2px;
+}
+
+.div6{
+    display: flex;
+    justify-content: end; 
+    position: relative;
+    bottom:60px;
+    right: 10px;
+}
+
+.div1{
+    text-align: center;
+    color: white;
+    gap: 20px;
+    font-size: x-large;
+}
+
+.div2{
+    text-align: center;
+    font-size: large;
+}
+
+.div3{
+    position: relative;
+     left: 656px;
+     bottom: 59px;
+
+}
+
+.btn1{
+    background-color: rgb(214, 208, 248);
+    color: black ;
+    border-radius: 35px;
+    border: none;
+    font-size: small;
+    padding: 15px;
+    font-size: medium;
+    width: 180px;
+}
+.div4{
+    text-align: center;
+}
+
+.btn3{
+    position: relative;
+    left: 290px;
+    bottom: 55px;
+    background-color:  rgb(65, 48, 177);
+    padding: 14px;
+    font-size: large;
+    border: none;
+    width: 170px;
+}
+
+input{
+    border: none;
+    width: 770px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn2{
+    font-size: medium;
+    border-color: rgb(117, 108, 175);
+    padding: 20px 20px;
+}
+
+.div5{
+    text-align: center;
+}
+
+.btn4{
+    position: relative;
+    left: 650px;
+    bottom: 5px;
+    border-radius: 35px;
+    padding: 20px;
+    width: 400px;
+    height: 60px;
+    text-align: end;
+    background-color: rgb(75, 64, 147);
+    border: none;
+    font-size: medium;
+}
+
+.btn6{
+    font-size: medium;
+    bottom: 100px;
+}

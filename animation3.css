@@ -1,0 +1,30 @@
+.circl{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 108, 218);
+    position: absolute;
+    left: 800px;
+    bottom: 750px;
+    border-radius: 50%;
+}
+
+.move{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(108, 108, 218, 0.5);
+    position: absolute;
+    left: 750px;
+    bottom: 698px;
+    border-radius: 50%;
+    animation: move 1s alternate infinite ease;
+}
+
+@keyframes move {
+       from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,19 @@
+.circle{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(108, 108, 218);
+    position: absolute;
+    left: 800px;
+    bottom: 750px;
+    border-radius: 50%;
+    animation: circle 1s alternate infinite ease-in-out;
+}
+
+@keyframes circle {
+      from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
